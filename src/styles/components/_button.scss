@@ -1,0 +1,14 @@
+.button{
+    padding: 12px;
+    font-size: bold;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 10px;
+
+    &--primary{
+        color: #fff;
+        background-color: #824426;
+    }
+}

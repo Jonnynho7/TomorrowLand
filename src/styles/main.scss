@@ -1,5 +1,13 @@
+@use 'hero';
+@use 'infos-bar';
+@use 'components/button';
+@use 'event';
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'EuropaNuova-regular', sans-serif;
+    list-style: none;
 }
+

@@ -1,0 +1,38 @@
+.event {
+    background: #6E2621;
+    background: radial-gradient(circle, rgba(110, 38, 33, 1) 0%, rgba(148, 75, 44, 1) 22%, rgba(148, 51, 44, 1) 80%);
+    padding-bottom: 15vh;
+
+    .container {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+        padding: 0 10vw;
+    }
+
+    &__title {
+        padding: 40px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    &__image {
+        max-width: 360px;
+        padding: 10px
+    }
+
+    &__guests{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    &--image-right{
+        .container{
+            flex-direction: start;
+        }
+    }
+
+}
